@@ -1,0 +1,7 @@
+.content__break {
+  margin: 0 auto 92px;
+}
+
+.content__break:first-of-type {
+  margin: 56px auto 92px;
+}

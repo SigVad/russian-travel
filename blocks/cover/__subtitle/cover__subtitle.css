@@ -1,0 +1,20 @@
+.cover__subtitle {
+  width: 100%; /* max-content */
+  max-width: 360px;
+  margin: 32px auto 0;
+  /* отступ = половина родителя - половина высоты центральных элементов */
+  font-size: 18px;
+  line-height: 1.22;
+  /* 22px or 122% */
+  text-align: center;
+}
+
+
+@media (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
