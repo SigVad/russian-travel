@@ -1,16 +1,9 @@
-/* .content {
-  font-family: 'Inter', Arial, sans-serif;
-  color: #fff;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+.content {
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 1279px) {
   .content {
-    max-width: 100%;
+    padding: 0;
   }
-} */
+} 
