@@ -6,3 +6,29 @@
 .content__break:first-of-type {
   margin: 56px auto 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .content__break:first-of-type {
+    margin: 54px auto 86px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content__break {
+    margin: 0 auto 88px;
+  }
+  
+  .content__break:first-of-type {
+    margin: 52px auto 84px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content__break {
+    margin: 0 auto 64px;
+  }
+  
+  .content__break:first-of-type {
+    margin: 48px auto 64px;
+  }
+}

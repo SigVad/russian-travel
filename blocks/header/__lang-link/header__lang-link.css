@@ -1,12 +1,7 @@
 .header__lang-link {
 margin-left: 18px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
 font-size: 24px;
 line-height: 1.17;
-
 text-align: right;
 color: #FFFFFF;
 text-decoration-line: none;
@@ -19,4 +14,11 @@ opacity: 0.8;
 
 .header__lang-link:first-of-type {
   margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }

@@ -4,3 +4,9 @@
   margin-top: auto;
   /* align-items: flex-end; */
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    margin: 0 15px 0 17px;
+  }
+}
