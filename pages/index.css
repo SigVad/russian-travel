@@ -45,7 +45,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-/* видимые границы элементов */
-/* section, div, h1, h2, h3, h4, p, ul, li, img, table, nav, a, iframe {
-  border: 1px solid orange;
-} */

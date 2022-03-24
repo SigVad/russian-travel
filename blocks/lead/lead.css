@@ -1,20 +1,16 @@
 .lead {
   max-width: 984px;
-  /* padding: 0 100px; */
   width: calc(100% - 100px*2);
-  /* box-sizing: border-box; */
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
-    /* padding: 0 48px; */
     width: calc(100% - 48px*2);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    /* padding: 0; */
     width: 100%;
   }
 }

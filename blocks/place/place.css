@@ -4,7 +4,6 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 0.95fr 1fr;
-  /* grid-template-columns: calc(1fr - 40px) 1fr; */
   grid-template-rows: min-content 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
@@ -29,7 +28,6 @@
   .place {
     width: 100%;
     grid-template-columns: 1fr;
-    /* grid-template-rows: min-content min-content 1fr 1fr; */
     grid-template-rows: repeat(4, min-content);
     grid-row-gap: 32px;
     grid-template-areas:
