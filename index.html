@@ -12,6 +12,9 @@
   <!--ниже шапка сайта -->
   <header class="header">
     <img class="header__logo" src="./images/header/header-logo.svg" alt="карта России логотип">
+    <nav class="header__navigation">
+      <button class="header__nav-item">О проекте</button>
+    </nav>
     <div class="header__lang-links">
       <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
       <a href="#" class="header__lang-link">En</a>
@@ -156,5 +159,18 @@
     </nav>
     <p class="footer__copyright">&copy; 2022. Вадим Сигачев</p>
   </footer>
+
+  <!--ниже всплывающее окно О проекте-->
+  <div class="popup">
+    <div class="popup__window">
+      <button class="popup__close-button"></button>
+      <section class="popup__content">
+        <h3 class="popup__title">О проекте</h3>
+        <p class="popup__text">Путешествия по России - это студенческий проект третьего спринта программы веб-разработчик. Его задача - отточить навык адаптивной верстки и работы с Фигмой. А этот попап - кейс для отработки практики четвертого спринта.
+        </p>
+      </section>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

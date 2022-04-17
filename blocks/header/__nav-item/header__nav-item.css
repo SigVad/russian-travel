@@ -1,0 +1,22 @@
+.header__nav-item {
+  Border: none;
+  background: none;
+  outline: none;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav-item {
+    font-size: 18px;
+    line-height: 1.11;
+  }  
+}
+@media screen and (max-width: 399px) {
+  .header__nav-item {
+    font-size: 16px;
+  }  
+}

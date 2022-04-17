@@ -22,3 +22,9 @@ opacity: 0.8;
     line-height: 1.11;
   }
 }
+@media screen and (max-width: 399px) {
+  .header__lang-link {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+}
